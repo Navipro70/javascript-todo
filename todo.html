@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>todo</title>
+  <link rel="stylesheet" href="todo.css">
+  <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400i&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="header">
+    <h2 class="noselect">todos</h2>
+  </div>
+
+  <div class = "todolist" id="main">
+      <input type="text" value name="toDo" placeholder="What needs to be done?" class="inp" autocomplete="off">
+  </div>
+
+  <div class="footerDiv">
+    <ul class="ulClass">
+      <li><span> <span id="count">0</span> items left</span></li>
+      <li><button type="button" name="all" autofocus class="buttonStyle">All</button></li>
+      <li><button type="button" name="selected" class="buttonStyle">Active</button></li>
+      <li><button type="button" name="complited" class="buttonStyle">Complited</button></li>
+      <li><button type="button" name="clear" class="buttonStyle clear">Clear Complited</button></li>
+    </ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://www.jacklmoore.com/js/autosize.min.js"></script>
+  <script src="simple.js"></script>
+</body>
+</html>

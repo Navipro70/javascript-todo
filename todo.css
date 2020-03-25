@@ -1,0 +1,127 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+  text-align: center;
+  background-color: #fbedf5;
+}
+
+#main {
+  margin-bottom: 3px;
+}
+
+#header h2 {
+  font-size: 100px;
+  color: #f47b7b;
+}
+
+.todolist {
+  margin-top: 20px;
+}
+
+.inp {
+  font-family: 'Raleway', sans-serif;
+  padding: 30px;
+  height: 68px;
+  width: 460px;
+  padding-left: 40px;
+  justify-content: center;
+  font-size: 26px;
+  border: none;
+  border-top: solid .5px #e0e0e0;
+  border-bottom: solid .5px #e0e0e0;
+  border-left: solid .5px #e0e0e0;
+  border-right: solid .5px #e0e0e0;
+  outline:none;
+}
+
+.createdElements {
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 35px;
+  resize: none;
+  overflow: hidden;
+}
+
+.welcome {
+  color: #00b1bd;
+}
+
+.footerDiv {
+  font-family: 'Raleway', sans-serif;
+  height: 38px;
+  width: 460px;
+  padding-left: 40px;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: 500;
+  border-top: solid .5px #e0e0e0;
+  border-bottom: solid .5px #e0e0e0;
+  border-left: solid .5px #e0e0e0;
+  border-right: solid .5px #e0e0e0;
+  background-color: #fff;
+}
+
+.ulClass {
+  padding-right: 50px;
+  margin-left: -65px;
+  margin-top: 10px;
+  list-style-type: none;
+  display: inline-flex;
+  width: 530px;
+  justify-content: space-between;
+}
+
+.buttonStyle {
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.buttonStyle:hover{
+  border: solid .5px rgb(255, 166, 166, 0.7);
+  border-radius: 5px;
+}
+
+.buttonStyle {
+  outline: none;
+}
+
+.select {
+  border: solid .5px rgb(255, 166, 166);
+  border-radius: 5px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 100;
+  margin: 24px 0 0 13px;
+  border: 2px solid #ff0000;
+  background-color: #ff0000;
+}
+
+.textDecorationForTask {
+  text-decoration: line-through;
+}
+
+.clear:hover {
+  border: none;
+  text-decoration: underline;
+}
